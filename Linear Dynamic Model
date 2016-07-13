@@ -1,0 +1,13 @@
+Y=-U1/m sin(φ)
+Y=-gφ
+(rt-rc)+kd lv +kplp=0
+q=[x,y,z,u,o,y],x=[q q1]
+x(t)=∫(0-T) L(x,x1,t)dt
+Equilibrium Hover
+r=r0,φ=θ,y=y0
+m*r=(cysθ+cθsθ)U1
+m*ÿ=(sysθ-cycθsθ)u1
+m*ö=-mg+(cφcθ)u1
+X'(t)=∫(0-t)((x)4)2 dt
+Rotation matrix
+Rdes b3=t/||t||
