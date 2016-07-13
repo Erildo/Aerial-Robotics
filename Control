@@ -1,0 +1,33 @@
+U=1/m[Tmax-mg]
+amax=Ui-max/W
+Thrust
+F~pi(r)2*(wr)2
+Moment M~F*l
+a~M/l
+...Displacement
+Presume having a drone in pq coordinates that moves with q to g(p),g(q),g(v)
+|g(p)-g(q)|=|g-q|
+Rotation y-axis through O angle
+Rot(y,O)=[coso O sinO
+            O  1  O
+         -sinO O cosO]
+ Rot(z,O)=[cosO -sinO O
+           sino coso o
+           O     O  1]
+  Rotation {RεR3*3|Rt R=I,detR=1}
+  Euler Angles
+  Rd=Rb+Rc+Rd
+  Rd=Rot(x,y)*Rot(y,φ)*Rot(Z,θ)
+  (c as cosinus/s as sinus)
+  R=[cycθ-sφsysθ  -cφsy cysθ+cθsφ
+       cθsy+cysφsθ  cθcy sysθ-cθsθcy
+       -cθ           sθ    cθcφ]
+       Rot(u,φ)=Icosφ+U(1-cosφ+u sinφ)
+       Newton-Euler Equation
+       1)f=ma
+       rc=1/m sum(i-m)mi*Pi
+       F=dL/dt
+       Mc-b=dH/dt
+       Angular momentum Hc-b=Ic*Wb
+       
+  
